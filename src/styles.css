@@ -1,0 +1,47 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+.btn{
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+footer h4 {
+  color: white;
+}
+
+
+.aboutFooter {
+  position: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+}
+
+.aboutH1{
+  padding-top: 2%
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}

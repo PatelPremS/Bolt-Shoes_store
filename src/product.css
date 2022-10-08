@@ -1,0 +1,413 @@
+/* product styles */
+
+.card {
+	/* max-width: 1000px; */
+	width: 100%;
+	padding: 4rem;
+	/* background-color: rgb(46, 45, 45); */
+	/* color: white; */
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+}
+
+@media(max-width:768px) {
+	.card {
+		width: 100%;
+		padding: 1.5rem
+	}
+}
+
+.row {
+	margin: 0
+}
+
+.path {
+	color: grey;
+	margin-bottom: 1rem
+}
+
+.path a {
+	color: #ffffff
+}
+
+.info {
+	padding: 6vh 0vh
+}
+
+@media(max-width:768px) {
+	.info {
+		padding: 0
+	}
+}
+
+.checked {
+	color: rgb(255, 217, 0);
+	margin-right: 1vh
+}
+
+.fa-star-half-full {
+	color: rgb(255, 217, 0)
+}
+
+img {
+	width: 100%;
+	padding: 1rem
+}
+
+@media(max-width:768px) {
+	img {
+		padding: 2.5rem 0
+	}
+}
+
+.title .col {
+	padding: 0
+}
+
+.fa-heart-o {
+	font-size: 2rem;
+	color: #ffffffaf;
+	font-weight: lighter
+}
+
+#reviews {
+	margin-left: 3vh;
+	color: grey
+}
+
+.size {
+	margin-top: 2rem
+}
+
+label.radio span {
+	padding: 1vh 2vh;
+	/* background-color: rgb(54, 54, 54); */
+	color: grey;
+	display: inline-block;
+	margin-right: 2vh;
+	border: black 1px solid;
+}
+
+
+
+label.radio input:checked+span {
+	border: 1px solid white;
+	padding: 1vh 2vh;
+	background-color: rgb(54, 54, 54);
+	margin-right: 2vh;
+	color: #ffffff;
+	display: inline-block
+}
+
+.color-radio {
+	border-radius: 50%;
+	padding: 1vh 2vh;
+	display: inline-block;
+	height: 30px;
+	margin-right: 2vh;
+}
+
+
+
+.carousel-control-prev {
+	width: unset
+}
+
+.carousel-control-next {
+	left: 8vh;
+	right: unset;
+	width: unset
+}
+
+.lower {
+	margin-top: 3rem
+}
+
+.lower i {
+	padding: 2.5vh;
+	margin-right: 1vh;
+	color: grey;
+	border: 1px solid black
+}
+
+.lower .col {
+	padding: 0
+}
+
+@media(max-width:768px) {
+	.lower i {
+		padding: 2vh;
+		margin-right: 1vh;
+		color: grey;
+		border: 1px solid rgb(85, 85, 85)
+	}
+}
+
+.btn {
+	background-color: transparent;
+	border-color: black;
+	color: grey;
+	padding: 1.8vh 4.5vh;
+	height: fit-content;
+	border-radius: 3px
+}
+
+.btn:focus {
+	box-shadow: none;
+	outline: none;
+	box-shadow: none;
+	background-color: rgb(54, 54, 54);
+	color: white;
+	-webkit-box-shadow: none;
+	-webkit-user-select: none;
+	transition: none
+}
+
+.btn:focus:hover {
+	color: white;
+}
+
+.btn:hover {
+	color: rgb(54, 54, 54);
+}
+
+@media(max-width:768px) {
+	.btn {
+		background-color: transparent;
+		border-color: Black;
+		color: Black;
+		padding: 1vh;
+		font-size: 0.9rem;
+		height: fit-content;
+		border-radius: 3px
+	}
+}
+
+a {
+	color: unset
+}
+
+a:hover {
+	color: unset;
+	text-decoration: none
+}
+
+label.radio input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	pointer-events: none
+}
+
+label.radio {
+	cursor: pointer
+}
+
+.color-radio input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	pointer-events: none
+}
+
+.color-radio {
+	cursor: pointer;
+	width: 30px;
+}
+
+
+
+/* producrt styles end */
+.total-like {
+	border: 1px solid;
+	border-radius: 50px;
+	display: inline-block;
+	font-weight: 500;
+	height: 34px;
+	line-height: 33px;
+	padding: 0 13px;
+	vertical-align: top;
+}
+
+/* My Account */
+.payments-item img.mr-3 {
+	width: 47px;
+}
+
+.order-list .btn {
+	border-radius: 2px;
+	min-width: 121px;
+	font-size: 13px;
+	padding: 7px 0 7px 0;
+}
+
+.osahan-account-page-left .nav-link {
+	padding: 18px 20px;
+	border: none;
+	font-weight: 600;
+	color: #535665;
+}
+
+.osahan-account-page-left .nav-link i {
+	width: 28px;
+	height: 28px;
+	background: #535665;
+	display: inline-block;
+	text-align: center;
+	line-height: 29px;
+	font-size: 15px;
+	border-radius: 50px;
+	margin: 0 7px 0 0px;
+	color: #fff;
+}
+
+.osahan-account-page-left .nav-link.active {
+	background: #f3f7f8;
+	color: #282c3f !important;
+}
+
+.osahan-account-page-left .nav-link.active i {
+	background: #282c3f !important;
+}
+
+.osahan-user-media img {
+	width: 90px;
+}
+
+.card offer-card h5.card-title {
+	border: 2px dotted #000;
+}
+
+.card.offer-card h5 {
+	border: 1px dotted #daceb7;
+	display: inline-table;
+	color: #17a2b8;
+	margin: 0 0 19px 0;
+	font-size: 15px;
+	padding: 6px 10px 6px 6px;
+	border-radius: 2px;
+	background: #fffae6;
+	position: relative;
+}
+
+.card.offer-card h5 img {
+	height: 22px;
+	object-fit: cover;
+	width: 22px;
+	margin: 0 8px 0 0;
+	border-radius: 2px;
+}
+
+.card.offer-card h5:after {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #daceb7;
+	content: "";
+	left: 30px;
+	position: absolute;
+	bottom: 0;
+}
+
+.card.offer-card h5:before {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #daceb7;
+	content: "";
+	left: 30px;
+	position: absolute;
+	top: 0;
+}
+
+.payments-item .media {
+	align-items: center;
+}
+
+.payments-item .media img {
+	margin: 0 40px 0 11px !important;
+}
+
+.reviews-members .media .mr-3 {
+	width: 56px;
+	height: 56px;
+	object-fit: cover;
+}
+
+.order-list img.mr-4 {
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+	border-radius: 2px;
+}
+
+.osahan-cart-item p.text-gray.float-right {
+	margin: 3px 0 0 0;
+	font-size: 12px;
+}
+
+.osahan-cart-item .food-item {
+	vertical-align: bottom;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000000;
+}
+
+.shadow-sm {
+	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.rounded-pill {
+	border-radius: 50rem !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.not-available {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.not-available big {
+	text-decoration: line-through;
+}
+
+label.color-radio input:hover+span {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid black;
+}
+
+
+label.color-radio input:checked+span {
+	border: 2px solid black;
+	opacity: .5;
+}
+
+label.color-radio input:checked+span+span {
+	text-decoration: underline;
+}
+
+
+label.color-radio .color-radio {
+	border: 2px solid grey;
+}
+
+.color-radio span {
+	display: flex;
+	text-transform: capitalize;
+}
